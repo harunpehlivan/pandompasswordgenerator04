@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+}
+
+.header {
+  font-family: "Oswald";
+}
+
+.blinker {
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  display: inline-block;
+}
+
+body {
+  background-color: #333;
+  color: white;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+select, button {
+  font-family: "Lato";
+}
+
+.pw {
+  letter-spacing: 0.4em;
+  font-family: monospace;
+  maring-bottom: 30px;
+}
+
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>> _ Random Password Generator</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class='header'>
+   <h1><span class='noselect'>
+     > <span class='blinker'>_</span>
+   </span> Random Password Generator</h1>
+</div>
+
+
+<select class='btn btn-default pw-select'>
+  <option val='0' selected disabled>Select password type</option>
+  <option val='alpha'>Alpha Numeric</option>
+  <option val='ascii'>ASCII</option>
+  <option val='hex'>Hexadecimal</option>
+</select>
+
+<select class='btn btn-default pw-len'>
+  <option val='0' selected disabled>Select length</option>
+  <option val='4'>4-chars</option>
+  <option val='6'>6 chars</option>
+  <option val='8'>8 chars</option>
+  <option val='10'>10 chars</option>
+  <option val='12'>12 chars</option>
+  <option val='14'>14 chars</option>
+  <option val='16'>16 chars</option>
+</select>
+
+
+<button class=' btn btn-success submit'>
+  Generate
+</button>
+
+<h2 class='pw'>
+  <div class='password'>password</div>
+</h2>
+
+<button class='btn btn-danger clip'>
+  Copy To Clipboard
+</button>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
